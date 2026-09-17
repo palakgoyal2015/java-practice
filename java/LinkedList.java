@@ -71,18 +71,18 @@ class Main {
         current.next=null;
         return head;
     }
-    static ListNode reverseLinkedList(ListNode head){
-        ListNode prev=null;
-        ListNode current=head;
-        while(current!=null){
-            ListNode nnext=current.next;
-            current.next=prev;
-            prev=current;
-            current=nnext;
+    // static ListNode reverseLinkedList(ListNode head){
+    //     ListNode prev=null;
+    //     ListNode current=head;
+    //     while(current!=null){
+    //         ListNode nnext=current.next;
+    //         current.next=prev;
+    //         prev=current;
+    //         current=nnext;
             
-        }
-        return prev;
-    }
+    //     }
+    //     return prev;
+    // }
     static ListNode middleLinkedList(ListNode head){
         ListNode slow=head;
         ListNode fast=head.next;
