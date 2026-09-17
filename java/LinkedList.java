@@ -1,3 +1,4 @@
+    public static void main(String[] args) {
          ListNode head = new ListNode(10);
         ListNode second = new ListNode(20);
         ListNode third = new ListNode(30);
